@@ -20,5 +20,5 @@ export const postCreateValidator = [
 ];
 
 export const commentCreateValidator = [
-  body("text").isLength({ min: 10 }).isString(),
+  body("text").isLength({ min: 2 }).isString(),
 ];
