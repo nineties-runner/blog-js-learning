@@ -36,7 +36,7 @@ const upload = multer({ storage });
 mongoose.set("strictQuery", false);
 mongoose
   .connect(
-    "mongodb+srv://root:prikol123@backend-learning.mhdopvc.mongodb.net/blog?retryWrites=true&w=majority"
+    "mongodb+srv://root:RquHbKnKaOH8lT09@backend-learning.mhdopvc.mongodb.net/blog?retryWrites=true&w=majority"
   )
   .then(console.log("Database online."))
   .catch((err) => console.log(err));
